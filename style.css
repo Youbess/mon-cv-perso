@@ -11,31 +11,44 @@ body {
 .photo-alex {
 	border-radius: 50%;
 	height: 250px;
-	
 }
 
 .photo-profil {
-
 	justify-content: center;
 	align-items: center;
-
 }
 
 body {
-
 	display: flex;
-
 }
 
 .colone-gauche {
-	
 	background-color: rgb(14, 13, 13);
 }
 
-.colone-gauche p {
+.colone-gauche li {
 	color: white;
 }
 
-.colone-gauche h2 {
+.colone-gauche h3 {
 	color: rgb(91, 129, 255);
+}
+
+.colone-droite h3 {
+	color: rgb(91, 129, 255);
+}
+
+.colone-droite h5 {
+	color: rgb(91, 129, 255);
+}
+
+h4 {
+	margin-bottom: 0;
+}
+h5 {
+	margin-top: 0;
+}
+
+ul {
+	list-style: none;
 }
