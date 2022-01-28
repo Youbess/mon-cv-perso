@@ -1,0 +1,41 @@
+@font-face {
+	font-family: "CenturyGothic";
+	src: url("./font/CenturyGothic.ttf");
+} 
+
+body {
+	font-family: "CenturyGothic";
+}
+
+
+.photo-alex {
+	border-radius: 50%;
+	height: 250px;
+	
+}
+
+.photo-profil {
+
+	justify-content: center;
+	align-items: center;
+
+}
+
+body {
+
+	display: flex;
+
+}
+
+.colone-gauche {
+	
+	background-color: rgb(14, 13, 13);
+}
+
+.colone-gauche p {
+	color: white;
+}
+
+.colone-gauche h2 {
+	color: rgb(91, 129, 255);
+}
