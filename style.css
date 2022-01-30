@@ -5,21 +5,11 @@
 
 body {
 	font-family: "CenturyGothic";
+	display: flex;
 }
-
 
 .photo-alex {
-	border-radius: 50%;
 	height: 250px;
-}
-
-.photo-profil {
-	justify-content: center;
-	align-items: center;
-}
-
-body {
-	display: flex;
 }
 
 .colone-gauche {
@@ -32,23 +22,93 @@ body {
 
 .colone-gauche h3 {
 	color: rgb(91, 129, 255);
+	font-size: 40px;
+}
+
+.photo-profil {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.compétence {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+.contact {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	padding-left: 30px;
+}
+
+.interet {
+	padding-top: 120px;
+	padding-bottom: 120px;
+	padding-left: 30px;
+}
+
+h1 {
+	font-size: 110px;
+	color: rgb(53, 53, 71);
+	margin-bottom: 0;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	color: rgb(53, 53, 71);
+	margin-top: 0;
 }
 
 .colone-droite h3 {
 	color: rgb(91, 129, 255);
+	font-size: 50px;
 }
 
+.colone-droite h4 {
+	margin-bottom: 0;
+	font-size: 25px;
+}
 .colone-droite h5 {
 	color: rgb(91, 129, 255);
-}
-
-h4 {
-	margin-bottom: 0;
-}
-h5 {
-	margin-top: 0;
+	margin-top: 0px;
 }
 
 ul {
 	list-style: none;
+	padding-left: 0;
 }
+
+.nom-prenom-poste {
+	padding: 40px;
+	padding-top: 0px;
+	padding-bottom: 0;
+}
+
+.profile {
+	padding: 40px;
+	padding-top: 0;
+}
+
+.section-formations {
+	padding: 40px;
+	padding-bottom: 0;
+	padding-top: 0;
+}
+
+.experience {
+	padding: 40px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.company-date {
+	display: flex;
+	justify-content: space-between;
+}
+
